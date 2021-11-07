@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     height: 100vh;
     color: white;
-    margin-bottom: 20px;
 }
 .container {
     justify-content: space-between;
@@ -104,11 +103,32 @@ li {
     text-align: center;
     font-weight: 700;
     padding-top: 10px;
-
 }
 .banner-title {
     font-weight: 900;
     font-size: 90px;
     height: 123px;
+}
+.icon-arrow-down {
+    background-color: #FF0000;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 55px / 2);
+    top: calc(-55px/2);
+}
+.container-icon {
+    position: relative;
+    margin-bottom: 65px;
+}
+.blog {
+
+}
+.blog::after
+.blog::before{
 
 }

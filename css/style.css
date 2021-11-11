@@ -125,10 +125,149 @@ li {
     position: relative;
     margin-bottom: 65px;
 }
-.blog {
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 35px;
+}
+.title::after,
+.title::before{
+    content: "";
+    display: block;
+    height: 3px;
+    background: #FF0000;
+    width: 50px;
+}
+.title strong {
+    padding: 10px;
+}
+
+.container-articles {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
 
 }
-.blog::after
-.blog::before{
+.article-blog {
+    height: 234px;
+    width: 352px;
+}
+.article-title-blog {
+    padding-top: 25px;
+}
+.article-text-blog {
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.article-btn-blog {
+    padding-top: 26px;
+    display: flex;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.title-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 35px;
+}
+.title-service::after,
+.title-service::before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #FF0000;
+    width: 50px;
+}
+.title-service {
+    padding-top: 60px;
+    color: white;
+}
+.title-service strong {
+    padding: 10px;
+}
+.blog-service {
+    background-color: #28272C;
+    margin-top: 300px;
+    height: 100vh;
+}
+.container-articles-service {
+    display: flex;
+    padding-top: 75px;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+}
+.article-service {
+    color: white;
+}
+.article-service-img {
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    display: flex;
+}
+/*styles of articles - page 3*/
+
+.article-title-service,
+.article-text-service {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.article-title-service {
+    font-size: 19px;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.article-text-service {
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.article-btn-service {
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    width: 142px;
+    height: 40px;
+    padding: 11px 29px;
+    display: inline-block;
+}
+/*styles of articles - page 4*/
+
+.title-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 100px;
+}
+.title-contact::after,
+.title-contact::before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #FF0000;
+    width: 50px;
+}
+.title-contact strong {
+    padding: 10px;
+}
+.page4-content {
 
 }

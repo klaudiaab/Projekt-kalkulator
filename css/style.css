@@ -4,6 +4,7 @@
 body {
     font-family:"Nunito Sans";
     max-width: 1366px;
+    max-height: 3008px;
 }
 .main-container {
     margin: 0 auto;
@@ -68,7 +69,7 @@ span {
     font-weight: 700;
     font-size: 16px;
 }
-li {
+.page-nav-list a {
     padding-left: 50px;
 }
 .article {
@@ -277,7 +278,7 @@ li {
 }
 .form-container {
     display: flex;
-    padding-left: 231px;
+    padding-left: 100px;
     padding-top: 81px;
 }
 .inputs-container {
@@ -337,29 +338,55 @@ textarea {
 .button-send {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 75px;
 }
 button {
     color: #FF0000;
     border: 1px solid #FF0000;
     border-radius: 40px;
-    box-shadow: 0px 3px 6px #FF00004D;
+    box-shadow: 0 3px 6px #FF00004D;
     width: 142px;
     height: 40px;
     background: none;
     margin-top: 10px
 }
 .page-footer {
-    display: flex;
-    justify-content: ;
+    background-color: #28272C;
+    font-family: "Nunito Sans";
+    padding-top: 50px;
+    height: 262px;
 }
-.container-head {
+.footer-row {
     display: flex;
 }
 .page-footer-nav-list a {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
 }
-.page-footer-nav-list2 {
-    display: inline-block;
+.page-footer-nav-list li {
+    margin-bottom: 10px;
+}
+.page-logo-footer {
+    text-decoration: none;
+    color: #FF0000;
+    font-weight: 800;
+    font-size: 25px;
+}
+.footer-list {
+    padding-left: 139px;
+}
+.foot-header {
+    margin-bottom: 50px;
+    padding-left: 139px;
+}
+.page-footer-copyright {
+    display: flex;
+    height: 16px;
+    width: 128px;
+    font-size: 12px;
+    color: white;
+    margin-left: 473px;
+    padding-top: 80px;
 }
